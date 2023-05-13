@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+    android:background="#804A4A4A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="NAME : "
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="30dp"
+        android:textSize="25sp"
+        android:textColor="@color/red"/>
+    <EditText
+        android:id="@+id/event_name"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        android:hint="Enter Name"/>
+
+    <Button
+        android:id="@+id/event_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        android:text="SELECT DATE" />
+    <TextView
+        android:id="@+id/event_text"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="120dp"
+        android:text="02/05/23"
+        android:textColor="@color/red"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="SAVE"
+        android:id="@+id/eventSave"
+        android:textSize="20sp"
+        android:textColor="#00FF00"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"/>
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".about"
+    tools:showIn="@layout/activity_about">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABOUT"
+            android:textColor="@color/red"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GEOSWITCH will enable the device to switch to the Silent Mode in locations like Hospitals,schools, colleges, Universities, offices etc. as per customized by the user. Users have to manually change the smart phones Switch to silent mode, send messages because they are busy etc.by this application we can minimise this hassle of manually switching to silent mode and messaging. The users can also access wireless connectivity of device. There is no such efficient existing system for doing the profile changing automatically based on the GPS location."
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOW TO USE : "
+            android:layout_marginTop="300dp"
+            android:textColor="#00AA00"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* LOCATION :-"
+            android:textColor="#FFAA00"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-Press the floating + button.\n-Enter your location or custom name and radius in meters and then press ADD LOCATION.\n-Now you can long press on a location that you need to add the GeoFence."
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* TIME :-"
+            android:textColor="#FFAA00"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-Press the floating + button.\n-Enter the time event name.\n-Press on the SILENT TIME button to set silent time.\n-Press on the UNSILENT TIME button to set unsilent time.\n-Then click SAVE button to activate."
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* NOTIFICATION :-"
+            android:textColor="#FFAA00"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-Toggle the IMPORTANT CALLS switch if you need to get notified when user gets 3+ missed calls from the same person.\n-Press floating + button and enter the event name.\n-Then press the SELECT DATE button to set date.\n-Then press SAVE to activate event notification."
+            android:layout_marginTop="580dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* SERVICES"
+            android:textColor="#FFAA00"
+            android:layout_marginTop="680dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-Toggle WIFI switch if you need to turn on/off wifi when the geofence or time function is triggered."
+            android:layout_marginTop="700dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COLLEGE OF APPLIED SCIENCE,MALAPPURAM \n3rd YEAR PROJECT DEVELOPED BY "
+            android:layout_marginTop="760dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFF00"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* ARUN ANAND\n* MUVADHA P\n*ANWAR SABITH M\n* MUNASHER NK"
+            android:layout_marginTop="795dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#00FFAA"/>
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

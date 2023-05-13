@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="400dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="#804A4A4A"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="NAME : "
+        android:textColor="@color/red"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/name_here"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/name_text"
+        android:hint="enter name here"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_from"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/name_here"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="SILENT TIME" />
+
+    <Button
+        android:id="@+id/button_to"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_from"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="UNSILENT TIME" />
+
+    <TextView
+        android:id="@+id/time_silent"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/name_here"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/button_from"
+        android:text="20:50"
+        android:textColor="@color/red"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/time_unsilent"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/time_silent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/button_to"
+        android:text="15:20"
+        android:textColor="@color/red"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/save_button_time"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_to"
+        android:layout_margin="30dp"
+        android:background="@drawable/button_shape"
+        android:text="SAVE"
+        android:textColor="#00FF00"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cancel_button_time"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/time_unsilent"
+        android:layout_margin="30dp"
+        android:layout_toEndOf="@+id/save_button_time"
+        android:background="@drawable/button_shape"
+        android:text="CANCEL"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+</RelativeLayout>

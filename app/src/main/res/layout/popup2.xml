@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="260dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#804A4A4A">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/name_text"
+        android:text="NAME : "
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:textSize="25sp"
+        android:textColor="@color/red"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/location_name"
+        android:hint="Enter name"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/name_text"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="RADIUS : "
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"
+        android:textSize="25sp"
+        android:textColor="@color/red"/>
+    <EditText
+        android:id="@+id/location_radius"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="150dp"
+        android:hint="Radius in meters"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="ADD LOCATION"
+        android:id="@+id/add_button_location"
+        android:textSize="20sp"
+        android:textColor="#00FF00"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"/>
+
+
+
+
+</RelativeLayout>

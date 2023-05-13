@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="#804A4A4A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="RADIUS : "
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="30dp"
+        android:textSize="25sp"
+        android:textColor="@color/red"/>
+    <EditText
+        android:id="@+id/location_radiusEdit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        android:hint="Radius in meters"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="EDIT"
+        android:id="@+id/editButtonMap"
+        android:textSize="20sp"
+        android:textColor="#00FF00"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"/>
+
+</RelativeLayout>
